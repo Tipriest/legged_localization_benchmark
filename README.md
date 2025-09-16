@@ -26,7 +26,15 @@ git submodule update --init --recursive
 
 ```bash
 # for fast_lio
+# install livox_sdk
+cd ~/Downloads
+git clone git@github.com:Tipriest/Livox-SDK.git
+cd Livox-SDK
+cd build && cmake ..
+make
+sudo make install
 
+# go back to legged_localization_benchmark ws
 catkin_make
 ```
 
