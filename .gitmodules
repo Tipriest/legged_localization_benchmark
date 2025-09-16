@@ -10,3 +10,4 @@
 [submodule "src/unitree_ros"]
 	path = src/unitree_ros
 	url = git@github.com:Tipriest/unitree_ros.git
+	branch = ros1/sim
