@@ -4,6 +4,10 @@
 用于足式机器人定位方法测试的repo
 
 ## 特性
+<div align="center">
+  <img src="assets/images/image1.png" alt="项目概览"/>
+</div>
+
 - 列出主要特性
 - 支持的算法/平台
 - 可扩展性等
@@ -15,6 +19,14 @@
 git clone git@github.com:Tipriest/legged_localization_benchmark.git
 cd legged_localization_benchmark
 git submodule update --init --recursive
+```
+
+
+## 编译
+
+```bash
+# for fast_lio
+
 catkin_make
 ```
 
