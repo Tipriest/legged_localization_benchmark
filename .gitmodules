@@ -1,3 +1,12 @@
 [submodule "Awesome-Legged-Robot-Localization-and-Mapping"]
 	path = Awesome-Legged-Robot-Localization-and-Mapping
 	url = git@github.com:KwanWaiPang/Awesome-Legged-Robot-Localization-and-Mapping.git
+[submodule "src/ros_tools"]
+	path = src/ros_tools
+	url = git@github.com:Tipriest/ros_tools.git
+[submodule "src/unitree_guide"]
+	path = src/unitree_guide
+	url = git@github.com:Tipriest/unitree_guide.git
+[submodule "src/unitree_ros"]
+	path = src/unitree_ros
+	url = git@github.com:Tipriest/unitree_ros.git
