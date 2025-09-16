@@ -7,7 +7,7 @@
 [submodule "src/unitree_guide"]
 	path = src/unitree_guide
 	url = git@github.com:Tipriest/unitree_guide.git
+	branch = ros1/sim
 [submodule "src/unitree_ros"]
 	path = src/unitree_ros
 	url = git@github.com:Tipriest/unitree_ros.git
-	branch = ros1/sim
