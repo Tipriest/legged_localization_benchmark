@@ -25,6 +25,8 @@ source devel/setup.bash
 roslaunch unitree_guide gazeboSim.launch
 # 使用手柄控制
 ./devel/lib/unitree_guide/junior_ctrl
+# 使用键盘控制
+# 需要改一下代码，有待完善文档
 # 按下手柄的X起立，按下Y切换trot步态，左推杆控制XY移动，右推杆控制Yaw
 ```
 
