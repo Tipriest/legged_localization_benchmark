@@ -27,7 +27,7 @@ git submodule update --init --recursive
 ```bash
 # for fast_lio
 
-catkin_make
+catkin build
 ```
 
 ## 使用方法
