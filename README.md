@@ -35,7 +35,7 @@ make
 sudo make install
 
 # go back to legged_localization_benchmark ws
-catkin_make
+catkin build
 ```
 
 ## 使用方法
