@@ -25,8 +25,13 @@
 
 - 测试环境：仿真/实物，地图类型，传感器配置等
 - 主要参数：
+  - 这个time_en现在还没打开，可以测试一下如何打开
 - 运行效果截图/日志：
 - 问题与改进建议：
+- 参考论文：
+  - [Fast-LIO: Fast, Robust LiDAR-Inertial Odometry](https://arxiv.org/abs/2107.06829)
+- 需要参考的论文或者代码
+  - [鲁棒实时激光雷达-惯性初始化技术](https://github.com/hku-mars/LiDAR_IMU_Init)
 
 ### LIO-SAM
 
@@ -34,6 +39,17 @@
 - 主要参数：
 - 运行效果截图/日志：
 - 问题与改进建议：
+- 参考论文：
+  - [LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping](https://arxiv.org/abs/2007.00258)
+
+### ORB-SLAM3
+
+- 测试环境：
+- 主要参数：
+- 运行效果截图/日志：
+- 问题与改进建议：
+- 参考论文：
+  - [ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM](https://arxiv.org/abs/2007.11898)
 
 ### 其他方法...
 
@@ -46,7 +62,10 @@
 
 ## 6. 参考资料
 
-- 相关论文、开源项目链接等
+- Fast-LIO 论文: https://arxiv.org/abs/2107.06829
+- LIO-SAM 论文: https://arxiv.org/abs/2007.00258
+- ORB-SLAM3 论文: https://arxiv.org/abs/2007.11898
+- 其他相关论文、开源项目链接等
 
 ---
 如有补充请及时更新本文件。
