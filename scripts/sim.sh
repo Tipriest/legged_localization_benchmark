@@ -1,0 +1,14 @@
+#!/bin/bash
+# 脚本名称: takeoff_land
+# 脚本描述: 该脚本为起飞&降落控制demo启动脚本,包含PX4 SITL,Gazebo仿真环境,无人机控制节点以及起飞&降落控制节点
+
+gnome-terminal --window -e  'bash -c " sleep 5;
+                    source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;
+                    roslaunch unitree_guide sim.launch; 
+                    exec bash"' \
+--tab -e 'bash -c " sleep 10;  
+                    source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;  
+                    roslaunch unitree_guide slam.launch; 
+                    exec bash"' \
+# --tab -e 'bash -c "sleep 14; source ~/Documents/Prometheus/environment_setup.sh;  roslaunch prometheus_demo takeoff_land.launch; exec bash"' \
+#--tab -e 'bash -c "sleep 7; rosrun prometheus_demo takeoff_land.py; exec bash"' \
