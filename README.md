@@ -28,6 +28,7 @@
 ## 安装
 
 ```bash
+sudo apt install libgoogle-glog-dev
 # 克隆仓库
 git clone git@github.com:Tipriest/legged_localization_benchmark.git
 cd legged_localization_benchmark

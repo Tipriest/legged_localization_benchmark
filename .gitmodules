@@ -13,3 +13,6 @@
 [submodule "src/slams/fast_lio"]
 	path = src/slams/fast_lio
 	url = git@github.com:Tipriest/fast_lio.git
+[submodule "src/slams/point_lio"]
+	path = src/slams/point_lio
+	url = git@github.com:Tipriest/Point-LIO.git
