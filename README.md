@@ -79,6 +79,15 @@ legged_localization_benchmark/
 └── src
 ```
 
+## 一些想做的点
+1. 有一个全局地图之后，怎么样使用localization的方法对于随机出生点可以获得自己的位置
+2. 对于机器人小跳向前的这种冲击情况进行考虑
+3. 光照突然变化
+4. 机器人进入电梯
+5. 有一个较大的IMU冲击
+
+
+
 ## 贡献指南
 
 欢迎提交 issue 和 pull request！请先阅读 [贡献指南](CONTRIBUTING.md)。
