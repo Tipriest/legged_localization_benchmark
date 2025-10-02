@@ -5,7 +5,7 @@
 
 ## 特性
 <div align="center" style="margin: 20px 0;">
-  <img src="assets/images/image1.png"
+  <img src="assets/images/go1l2.png"
        alt="go1l2 model" 
        title="go1l2 model"
        width="800" 
