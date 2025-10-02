@@ -4,8 +4,21 @@
 用于足式机器人定位方法测试的repo
 
 ## 特性
-<div align="center">
-  <img src="assets/images/image1.png" alt="项目概览"/>
+<div align="center" style="margin: 20px 0;">
+  <img src="assets/images/image1.png"
+       alt="go1l2 model" 
+       title="go1l2 model"
+       width="800" 
+       style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+       loading="lazy"/>
+</div>
+<div align="center" style="margin: 20px 0;">
+  <img src="assets/images/fastlio.png" 
+       alt="fastlio" 
+       title="fastlio"
+       width="800" 
+       style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+       loading="lazy"/>
 </div>
 
 - 列出主要特性
