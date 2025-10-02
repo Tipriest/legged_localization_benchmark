@@ -10,5 +10,3 @@ gnome-terminal --window -e  'bash -c " sleep 1;
                     source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;  
                     roslaunch unitree_guide slam.launch; 
                     exec bash"' \
-# --tab -e 'bash -c "sleep 14; source ~/Documents/Prometheus/environment_setup.sh;  roslaunch prometheus_demo takeoff_land.launch; exec bash"' \
-#--tab -e 'bash -c "sleep 7; rosrun prometheus_demo takeoff_land.py; exec bash"' \
