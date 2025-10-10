@@ -14,3 +14,7 @@ gnome-terminal --window --title="Simulation" -e  'bash -c " sleep 1;
                     source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;  
                     roslaunch unitree_guide slam.launch;
                     exec bash"' \
+--tab --title="TFPub" -e 'bash -c " sleep 12;
+                    source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;  
+                    roslaunch unitree_guide tf_pub.launch;
+                    exec bash"' \
