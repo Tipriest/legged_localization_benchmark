@@ -10,7 +10,7 @@ gnome-terminal --window --title="Simulation" -e  'bash -c " sleep 1;
                     source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;  
                     roslaunch joystick_node joystick_node.launch;
                     exec bash"' \
-# --tab --title="SLAM" -e 'bash -c " sleep 6;  
-#                     source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;  
-#                     roslaunch unitree_guide slam.launch;
-#                     exec bash"' \
+--tab --title="SLAM" -e 'bash -c " sleep 10;
+                    source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;  
+                    roslaunch unitree_guide slam.launch;
+                    exec bash"' \
