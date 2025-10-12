@@ -29,6 +29,7 @@
 
 ```bash
 sudo apt install libgoogle-glog-dev
+sudo apt install joint-state-publisher ros-noetic-openni-* ros-noetic-pointcloud-to-laserscan
 # 克隆仓库
 git clone git@github.com:Tipriest/legged_localization_benchmark.git
 cd legged_localization_benchmark
@@ -78,6 +79,19 @@ legged_localization_benchmark/
 ├── scripts
 └── src
 ```
+## 目前的问题
+1. 现在示例里面用的是velodyne的16线lidar，对较近的物体lidar是没有输出的，据估计这个
+没有输出的范围大概在1m左右，如下图所示，看一下实际的lidar是什么情况，也是一样没有输出吗，如果
+不是的话修改现在lidar的仿真模型，是的话就加入一个相机进行补盲
+- 大致问了一下，距离很近的话也是会有点的，只是噪声增加的比较严重
+<div align="center" style="margin: 20px 0;">
+  <img src="assets/images/lidar_missed.png" 
+       alt="lidar_missed" 
+       title="lidar_missed"
+       width="800" 
+       style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+       loading="lazy"/>
+</div>
 
 ## 一些想做的点
 1. 有一个全局地图之后，怎么样使用localization的方法对于随机出生点可以获得自己的位置
