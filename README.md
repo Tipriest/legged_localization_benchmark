@@ -80,7 +80,7 @@ legged_localization_benchmark/
 └── src
 ```
 ## 目前的问题
-1. 现在示例里面用的是velodyne的16线lidar，对较近的物体lidar是没有输出的，据估计这个
+1. [FIXED]现在示例里面用的是velodyne的16线lidar，对较近的物体lidar是没有输出的，据估计这个
 没有输出的范围大概在1m左右，如下图所示，看一下实际的lidar是什么情况，也是一样没有输出吗，如果
 不是的话修改现在lidar的仿真模型，是的话就加入一个相机进行补盲
 - 大致问了一下，距离很近的话也是会有点的，只是噪声增加的比较严重
@@ -92,6 +92,9 @@ legged_localization_benchmark/
        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
        loading="lazy"/>
 </div>
+2. 目前的机器人运动远远算不上平稳，尤其是在旋转的时候其实感觉机器人转的不稳定，现在显示想要能够
+在旋转的时候小步频快移动
+3. move_base在机器人脱困的时候好像对于机器人的包围盒的考虑有点问题
 
 ## 一些想做的点
 1. 有一个全局地图之后，怎么样使用localization的方法对于随机出生点可以获得自己的位置
