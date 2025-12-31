@@ -27,7 +27,7 @@
 
 ## 安装
 
-```bash
+```shell
 sudo apt install libgoogle-glog-dev
 sudo apt install joint-state-publisher ros-noetic-openni-* ros-noetic-pointcloud-to-laserscan
 # 克隆仓库
@@ -39,7 +39,7 @@ git submodule update --init --recursive
 
 ## 编译
 
-```bash
+```shell
 # for fast_lio
 # install livox_sdk
 cd ~/Downloads
@@ -55,7 +55,7 @@ catkin build
 
 ## 使用方法(使用键盘控制)
 
-```bash
+```shell
 ./scripts/sim_keyboard.sh
 # 在sim_keyboard.sh打开的第一个terminal终端中，机器人初始为passive状态
 # 输入2机器人进入站立fixed stand状态
@@ -69,7 +69,7 @@ catkin build
 
 ## 使用方法(使用手柄控制)
 
-```bash
+```shell
 ./scripts/sim_joystick.sh
 # 按住手柄的X键(右侧的左边的方块键)起立，Y键(右侧的上边的三角键)进入TROT模式，然后左旋杆控制移动，右旋杆控制yaw角度
 ```
@@ -77,7 +77,7 @@ catkin build
 
 ## 目录结构
 
-```
+```txt
 legged_localization_benchmark/
 ├── assets
 ├── Awesome-Legged-Robot-Localization-and-Mapping
