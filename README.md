@@ -1,22 +1,25 @@
 # Legged Localization Benchmark
 
 ## 项目简介
-用于足式机器人定位方法测试的repo
+用于足式机器人定位方法测试的repo，
+野外场景构建方法
+本项目使用的机器人控制方法+足式机器人定位方法
+本项目采用的自采数据集
 
 ## 特性
 <div align="center" style="margin: 20px 0;">
-  <img src="assets/images/go1l2.png"
-       alt="go1l2 model" 
+  <img src="assets/images/outdoor_scale.png"
+       alt="go1l2 model"
        title="go1l2 model"
-       width="800" 
+       width="800"
        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
        loading="lazy"/>
 </div>
 <div align="center" style="margin: 20px 0;">
-  <img src="assets/images/fastlio.png" 
-       alt="fastlio" 
+  <img src="assets/images/fastlio.png"
+       alt="fastlio"
        title="fastlio"
-       width="800" 
+       width="800"
        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
        loading="lazy"/>
 </div>
@@ -94,10 +97,10 @@ legged_localization_benchmark/
 不是的话修改现在lidar的仿真模型，是的话就加入一个相机进行补盲
 - 大致问了一下，距离很近的话也是会有点的，只是噪声增加的比较严重
 <div align="center" style="margin: 20px 0;">
-  <img src="assets/images/lidar_missed.png" 
-       alt="lidar_missed" 
+  <img src="assets/images/lidar_missed.png"
+       alt="lidar_missed"
        title="lidar_missed"
-       width="800" 
+       width="800"
        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
        loading="lazy"/>
 </div>
