@@ -13,4 +13,12 @@ gnome-terminal --window --title="Simulation" -e  'bash -c " sleep 1;
 --tab --title="Robot Input Node" -e 'bash -c " sleep 0;
                     source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;
                     roslaunch unitree_guide input.launch input_method:=joystick;
-                    exec bash"'
+                    exec bash" ' \
+--tab --title="SLAM" -e 'bash -c " sleep 12;
+                    source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;
+                    roslaunch unitree_guide slam.launch;
+                    exec bash"' \
+--tab --title="TFPub" -e 'bash -c " sleep 13;
+                    source ~/Documents/legged_localization_benchmark/scripts/environment_setup.sh;
+                    roslaunch unitree_guide tf_pub.launch;
+                    exec bash"' \
