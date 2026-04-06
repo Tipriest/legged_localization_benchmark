@@ -24,9 +24,11 @@
        loading="lazy"/>
 </div>
 
-- 列出主要特性
-- 支持的算法/平台 目前支持ubuntu20.04
-- 可扩展性等
+| 足式机器人定位方法      | Description |
+| ----------- | ----------- |
+| Fast-LIO2   | Title       |
+| Point-LIO   | Text        |
+| LEG-KILO    | Text        |
 
 ## 安装
 
